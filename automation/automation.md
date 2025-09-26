@@ -9,9 +9,9 @@
 ### In general, this MCA (measurement, control, actuation) process forms a feedback loop, meaning that the system's output can be reused as input to maintain the desired status.
 
 ### This is sufficient for an introduction to the topic. One final point to mention is that systems can be static or dynamic
-- [Static systems are influenced only by their initial state and have no memory of what happens over time—they are often called memoryless.]
+- Static systems are influenced only by their initial state and have no memory of what happens over time—they are often called memoryless.
 
-- [Dynamic systems, on the other hand, are influenced by both their current state and their history over time.]
+- Dynamic systems, on the other hand, are influenced by both their current state and their history over time.
 
 ### Why this distintion is important? because it determines the type of  mathematical model we use. For dynamic systems, a valid mathematical model usually requires differential equations to describe how the system evolves over time. This is why the first lecture focuses on differential equations.
 
