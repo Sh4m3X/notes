@@ -4,7 +4,7 @@
 ### With that said, below you’ll find the different subjects I’m focusing on, along with their topics and lectures. I hope you enjoy, and feel free to help me along the way <3.
 
 ## Subjects
-- [Automatic Notes](automatic/automatic.md);
+- [Automatic Notes](automation/automation.md);
 
 
 
