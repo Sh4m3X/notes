@@ -17,6 +17,9 @@
 
 ### Another definition could be: the integral of a function f(t) is that class of function g(t) so that g'(t) = f(t)
 ### Once we know, if we want to know the value of an integral of a function f(t) in (t0, tb), if we know g(t) the calculation is pretty easy: g(tb)-g(t0).
+
+<img src="images/form3.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
+
 ### The dimostration is pretty easy and consist in applying the integral to f(t)=d(g(t))/dt
 
 ### From this last concept is clear how solving an integral is basically solving an equation that contains derivatives (ex. g'(t) = f(t)).
