@@ -1,6 +1,10 @@
 ---
 ---
 
+header h1, header p.view {
+  display: none;
+}
+
 body {
   background-color: black;
   color: white; /* optional: make text visible */
