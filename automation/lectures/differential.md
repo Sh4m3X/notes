@@ -83,4 +83,9 @@
 <img src="images/form9.jpg" alt="Form 1" height="250" style="display:inline-block; margin-right:20px;">
 
 ### this case can be easly generalized for the case where there is roots with multiplicity greater than 2.
-<img src="images/form9.jpg" alt="Form 1" height="250" style="display:inline-block; margin-right:20px;">
+<img src="images/form10.jpg" alt="Form 1" height="250" style="display:inline-block; margin-right:20px;">
+
+### CASE 3 - complex roots and coniugate
+### if we have two complex roots that are also coniugate the idea is pretty straight forward: we use the first solution considering that instead of real roots we have complex number. Then we ask how should c1 and c2 be? we will eventually find out that c1 and and c2 must also be complex coniugate, once found that we can return to our initial solution and simplify that considering this last thing. This will be the result: 
+<img src="images/form11.jpg" alt="Form 1" height="250" style="display:inline-block; margin-right:20px;">
+
