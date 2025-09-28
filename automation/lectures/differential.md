@@ -16,7 +16,7 @@
 <img src="images/form2.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
 
 ### Another definition could be: the integral of a function f(t) is that class of function g(t) so that g'(t) = f(t)
-### Once we know, if we want to know the value of an integral of a function f(t) in (t0, tb), if we know g(t) the calculation is pretty easy: g(tb)-g(t0).
+### Once we know that, if we want to know the value of an integral of a function f(t) in (t0, tb), if we know g(t) the calculation is pretty easy: g(tb)-g(t0).
 
 <img src="images/form3.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
 
@@ -26,4 +26,12 @@
 ### This kind of equation are differential equations.
 ### There are a lot of differential equation but we will deal only with ODE (ordinary differential equation) and LDE (linearly differential equation).
 
-## ODE
+## ODE VS LDE
+### In general, an ODE is an equation where the unknown is a function, and the terms are the derivatives of that function:
+### F(t,y(t),y′(t),…,y(n)(t))=0
+### We refer to an LDE when we can apply the principle of superposition of causes to the ODE. This means the equation can be written as:
+### y(k)+ak−1(t)y(k−1)+⋯+a0(t)y=g(t)
+
+### where the coefficients a0(t),…,ak−1(t) are the coefficients of the equation, g(t) is the known term, and y(t) is the unknown function.
+### It can happen that: the coefficients are constants (constant coefficients), g(t)=0 (homogeneous equation), and the parameters do not depend on time (autonomous case).
+
