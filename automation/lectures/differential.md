@@ -26,6 +26,7 @@
 ### This kind of equation are differential equations.
 ### There are a lot of differential equation but we will deal only with ODE (ordinary differential equation) and LDE (linearly differential equation).
 
+## ---------------------------------------------------------------------------------------------------------------------------
 ## ODE VS LDE
 ### In general, an ODE is an equation where the unknown is a function, and the terms are the derivatives of that function:
 ### F(t,y(t),y′(t),…,y(n)(t))=0
@@ -35,22 +36,32 @@
 ### where the coefficients a0(t),…,ak−1(t) are the coefficients of the equation, g(t) is the known term, and y(t) is the unknown function.
 ### It can happen that: the coefficients are constants (constant coefficients), g(t)=0 (homogeneous equation), and the parameters do not depend on time (autonomous case).
 
+## ---------------------------------------------------------------------------------------------------------------------------
 ## Differential equation of the first order
 ### The general form of a differential equation of the first order is the following:
 ### y' = a(t)y + b(t)
-### 
+
 ### if b(t) is zero the equation is omogeneous and can be solved with the method of separation of variables, let's see a simple exemple:
 ### dy/dt = t*y
 ### we can rearrange the terms
 ### dy/y = t * dt
 ### integrating each side and solving integrals
 ### ln(y) = x^2 ---> e^ln(y) = e^(x^2) ---> y = e^(x^2)
-###
+
 ### else the equation is non-omogeneous. In this case, b(t) (in an automation or control context) is called the forcing term, since it represents the input applied to the system in order to achieve a certain goal. The solution is more complex:
 
 <img src="images/form4.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
-<img src="images/graf5.jpg" alt="Graph 1" height="300" style="display:inline-block;">
+<img src="images/form5.jpg" alt="Graph 1" height="300" style="display:inline-block;">
 
 ### Once solved the relative cauchy problem we arrive to:
 
 <img src="images/form6.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
+
+### The first term is called the free evolution, which represents the natural behavior of the system without any external intervention. (Notice that this part corresponds to the solution of the homogeneous equation where b(t)=0). The second term is called the forced evolution, which represents the behavior of the system after our interaction with it (through our input u(t)).
+### Notice that if a(t) is a costant than A(t) = a(t-t0) and the resulting function is: 
+
+<img src="images/form7.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
+
+### Where the last part indicates a convolution that result particulary important when done with the Dirac's delta.
+
+## ---------------------------------------------------------------------------------------------------------------------------
