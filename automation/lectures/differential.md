@@ -35,3 +35,22 @@
 ### where the coefficients a0(t),…,ak−1(t) are the coefficients of the equation, g(t) is the known term, and y(t) is the unknown function.
 ### It can happen that: the coefficients are constants (constant coefficients), g(t)=0 (homogeneous equation), and the parameters do not depend on time (autonomous case).
 
+## Differential equation of the first order
+### The general form of a differential equation of the first order is the following:
+### y' = a(t)y + b(t)
+### 
+### if b(t) is zero the equation is omogeneous and can be solved with the method of separation of variables, let's see a simple exemple:
+### dy/dt = t*y
+### we can rearrange the terms
+### dy/y = t * dt
+### integrating each side and solving integrals
+### ln(y) = x^2 ---> e^ln(y) = e^(x^2) ---> y = e^(x^2)
+###
+### else the equation is non-omogeneous. In this case, b(t) (in an automation or control context) is called the forcing term, since it represents the input applied to the system in order to achieve a certain goal. The solution is more complex:
+
+<img src="images/form4.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
+<img src="images/graf5.jpg" alt="Graph 1" height="300" style="display:inline-block;">
+
+### Once solved the relative cauchy problem we arrive to:
+
+<img src="images/form6.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
