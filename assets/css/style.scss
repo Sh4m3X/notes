@@ -1,11 +1,45 @@
 ---
 ---
 
+// Hide header elements
 header h1, header p.view {
   display: none;
 }
 
+// Base body styling
 body {
   background-color: black;
-  color: white; /* optional: make text visible */
+  color: white;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 60ch;        // keeps text readable on wide screens
+  padding: 1rem;
+  font-size: clamp(14px, 1.2vw, 18px); // adaptive font size
 }
+
+// Headings scale better on all screens
+h1, h2, h3, h4 {
+  line-height: 1.3;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+// Responsive images
+img {
+  max-width: 100%;   // don’t overflow container
+  height: auto;      // keep aspect ratio
+  display: block;
+  margin: 1rem auto; // center with spacing
+  border-radius: 5px; // optional (for style)
+}
+
+// Optional: links stand out
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
