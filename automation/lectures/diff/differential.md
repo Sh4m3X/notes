@@ -63,7 +63,6 @@ Notice that if a(t) is a costant than A(t) = a(t-t0) and the resulting function 
 
 Where the last part indicates a convolution that result particulary important when done with the Dirac's delta.
 
-## ---
 ## Differential equation with order superior to the first and costant coefficient
 The most general formulation of this equation is the following:
 y(k)(t) + ak-1y(k-1)(t) +...+ a0y(t)=g(t)
@@ -78,7 +77,8 @@ We have k different roots all real, in this case the solution is simple:
 
 CASE 2 - roots with double molteplicity and more 
 We  have less than k different roots because some of them are double.
-in this case the solution must follow the previous rule except for the fact that the root repeated must be multiplied with a polyomial that has a grade inferior by 1 of the mutiplicity of that root. exemple:
+in this case the solution must follow the previous rule except for the fact that the root repeated must be multiplied with a polyomial that has a grade inferior by 1 of the mutiplicity of that root. Exemple:
+
 <img src="images/form9.jpg" alt="Form 1" height="250" style="display:inline-block; margin-right:20px;">
 
 this case can be easly generalized for the case where there is roots with multiplicity greater than 2.
