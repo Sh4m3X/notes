@@ -73,6 +73,7 @@ By applying this substitution and keeping the coefficients, we obtain a polynomi
 Now we have few possible cases.
 CASE 1 - simple roots
 We have k different roots all real, in this case the solution is simple:
+
 <img src="images/form8.jpg" alt="Form 1" height="250" style="display:inline-block; margin-right:20px;">
 
 CASE 2 - roots with double molteplicity and more 
@@ -86,6 +87,7 @@ this case can be easly generalized for the case where there is roots with multip
 
 CASE 3 - complex roots and coniugate
 if we have two complex roots that are also coniugate the idea is pretty straight forward: we use the first solution considering that instead of real roots we have complex number. Then we ask how should c1 and c2 be? we will eventually find out that c1 and and c2 must also be complex coniugate, once found that we can return to our initial solution and simplify that considering this last thing. This will be the result: 
+
 <img src="images/form11.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
 
 Once we have seen all this cases we have done the most of the work because this result will be useful also for the non-omogeneous equation. For the non omogeneous equation a solution can be found via the combination of a particular solution to the equation and the solution to the omogeneous associated equation:
