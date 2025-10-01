@@ -26,7 +26,7 @@
 ### This kind of equation are differential equations.
 ### There are a lot of differential equation but we will deal only with ODE (ordinary differential equation) and LDE (linearly differential equation).
 
-## ---------------------------------------------------------------------------------------------------------------------------
+## ---
 ## ODE VS LDE
 ### In general, an ODE is an equation where the unknown is a function, and the terms are the derivatives of that function:
 ### F(t,y(t),y′(t),…,y(n)(t))=0
@@ -36,7 +36,7 @@
 ### where the coefficients a0(t),…,ak−1(t) are the coefficients of the equation, g(t) is the known term, and y(t) is the unknown function.
 ### It can happen that: the coefficients are constants (constant coefficients), g(t)=0 (homogeneous equation), and the parameters do not depend on time (autonomous case).
 
-## ---------------------------------------------------------------------------------------------------------------------------
+## ---
 ## Differential equation of the first order
 ### The general form of a differential equation of the first order is the following:
 ### y' = a(t)y + b(t)
@@ -64,7 +64,7 @@
 
 ### Where the last part indicates a convolution that result particulary important when done with the Dirac's delta.
 
-## ---------------------------------------------------------------------------------------------------------------------------
+## ---
 ## Differential equation with order superior to the first and costant coefficient
 ### The most general formulation of this equation is the following:
 ### y(k)(t) + ak-1y(k-1)(t) +...+ a0y(t)=g(t)
