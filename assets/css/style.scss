@@ -12,10 +12,13 @@ body {
   color: white;
   line-height: 1.6;
   margin: 0 auto;
-  max-width: 60ch;        // keeps text readable on wide screens
   padding: 1rem;
-  font-size: clamp(14px, 1.2vw, 18px); // adaptive font size
+  font-size: clamp(14px, 1.2vw, 18px);
+
+  // instead of fixed max-width: 60ch
+  max-width: clamp(60ch, 80%, 120ch);
 }
+
 
 // Headings scale better on all screens
 h1, h2, h3, h4 {
