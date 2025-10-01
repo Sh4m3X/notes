@@ -27,14 +27,20 @@ h1, h2, h3, h4 {
   margin-bottom: 1rem;
 }
 
-// Responsive images
+// responsive img
 img {
-  max-width: 100%;   // don’t overflow container
-  height: auto;      // keep aspect ratio
+  max-width: 100%;     // shrink to fit parent width
+  height: auto;        // keep aspect ratio by default
   display: block;
-  margin: 1rem auto; // center with spacing
-  border-radius: 5px; // optional (for style)
+  margin: 1rem auto;
+  border-radius: 5px;
+
+  // optional constraints
+  max-height: 500px;   // don’t let tall images stretch too much
+  max-width: 800px;    // don’t let wide images blow out on big screens
+  object-fit: contain; // keeps the whole image visible inside limits
 }
+
 
 // Optional: links stand out
 a {
