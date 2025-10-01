@@ -16,4 +16,4 @@
 ### Why this distintion is important? because it determines the type of  mathematical model we use. For dynamic systems, a valid mathematical model usually requires differential equations to describe how the system evolves over time. This is why the first lecture focuses on differential equations.
 
 ## AUTOMATIC LESSONS
-- [Differential Equation](lectures/differential.md)
+- [Differential Equation](lectures/diff/differential.md)
