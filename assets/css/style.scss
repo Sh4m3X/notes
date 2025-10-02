@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 }
 
 // responsive img
-img:not(.multiple-image) {
+img {
   max-width: 100%;     // shrink to fit parent width
   height: auto;        // keep aspect ratio by default
   display: block;
@@ -40,6 +40,10 @@ img:not(.multiple-image) {
   object-fit: contain; // keeps the whole image visible inside limits
 }
 
+
+div.multiple-image > img {
+  max-width: 50%;
+}
 
 // Optional: links stand out
 a {
