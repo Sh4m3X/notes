@@ -51,8 +51,11 @@ ln(y) = x^2 ---> e^ln(y) = e^(x^2) ---> y = e^(x^2)
 
 else the equation is non-omogeneous. In this case, b(t) (in an automation or control context) is called the forcing term, since it represents the input applied to the system in order to achieve a certain goal. The solution is more complex:
 
-<img src="images/form4.jpg" alt="Form 1"   style="display:inline-block; margin-right:20px;">
-<img src="images/form5.jpg" alt="Graph 1"   style="display:inline-block;">
+
+<div class="multiple-image">
+    <img src="images/form4.jpg" alt="Form 1"   style="display:inline-block; margin-right:10px;">
+    <img src="images/form5.jpg" alt="Graph 1"   style="display:inline-block;">
+</div>
 
 Once solved the relative cauchy problem we arrive to:
 
