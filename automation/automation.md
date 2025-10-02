@@ -1,4 +1,4 @@
-# AUTOMATIC
+# Automation
 The general purpose of automation is to simplify or replace human tasks, such as car driving. To achieve this, engineers must first develop a deep understanding of the systems they want to automate. This includes creating a useful mathematical model that accurately describes the system’s behavior. 
 Once the system is well understood, engineers can design algorithms to perform three key tasks:
 
@@ -15,5 +15,5 @@ This is sufficient for an introduction to the topic. One final point to mention 
 
 Why this distintion is important? because it determines the type of  mathematical model we use. For dynamic systems, a valid mathematical model usually requires differential equations to describe how the system evolves over time. This is why the first lecture focuses on differential equations.
 
-## AUTOMATIC LESSONS
+## AUTOMATION LESSONS
 - [Differential Equation](lectures/diff/differential.md)
