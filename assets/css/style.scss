@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 }
 
 // responsive img
-img {
+img:not(.multiple-image) {
   max-width: 100%;     // shrink to fit parent width
   height: auto;        // keep aspect ratio by default
   display: block;
