@@ -7,7 +7,7 @@ A strategy to do that consist in dividing the interval in n equal parts called d
 Doing this we've aproximated the area below the curve as a sum of areas (the rectangle's area).
 This is the series that define the concept:
 
-<img src="images/form1.jpg" alt="Form 1" height="300" style="display:inline-block; margin-right:20px;">
+<img src="images/form1.jpg" alt="Form 1" style="display:inline-block; margin-right:20px;">
 <img src="images/graf1.jpg" alt="Graph 1" height="300" style="display:inline-block;">
 
 Now what if we increase the n portion, and if we do it again, and again... What if we increase it until it tends to infinite? In math terms this means applying limit to series.
