@@ -8,8 +8,8 @@ Doing this we've aproximated the area below the curve as a sum of areas (the rec
 This is the series that define the concept:
 
 <div class="multiple-image">
-    <img src="images/form1.jpg" alt="Form 1" style="display:inline-block; max-width=50%; margin-right:20px;">
-    <img src="images/graf1.jpg" alt="Graph 1" style="display:inline-block; max-width=50%">
+    <img src="images/form1.jpg" alt="Form 1" style="display:inline-block; margin-right:20px;">
+    <img src="images/graf1.jpg" alt="Graph 1" style="display:inline-block;">
 </div>
 
 Now what if we increase the n portion, and if we do it again, and again... What if we increase it until it tends to infinite? In math terms this means applying limit to series.
