@@ -4,15 +4,11 @@
 Let's assume we have two system of equation:
 
 ẋ1 = a1,1* x1 + ... + a1,n * xn + b1,1*u1 + b1,p * up 
-.
-.
-.
+...
 ẋn = an,1 * x1 + ... + an,n * xn + bn,1 * u1 + ... + bn,p*up
 
 y1 = c1,1 * x1 + ... + c1,n * xn + d1,1 * u1 + d1,p*up 
-.
-.
-.
+...
 yn = cn,1 * x1 + ... + cn,n * xn + dn,1 * u1 + ... + dn,p*up
 
 this two system can be written like this:
