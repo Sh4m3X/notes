@@ -16,4 +16,7 @@ This is sufficient for an introduction to the topic. One final point to mention 
 Why this distintion is important? because it determines the type of  mathematical model we use. For dynamic systems, a valid mathematical model usually requires differential equations to describe how the system evolves over time. This is why the first lecture focuses on differential equations.
 
 ## AUTOMATION LESSONS
+
 - [Differential Equation](lectures/diff/differential.md)
+- [Cauchy](lectures/cauchy/cauchy.md)
+- [Matrix representation of differential equation](lectures/matrix/mtrix.md)
