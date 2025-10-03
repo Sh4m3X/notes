@@ -3,14 +3,13 @@
 ## General Matrix Representation
 Let's assume we have two system of equation:
 
-1)
+1
 ẋ1 = a1,1*x1 + ... + a1,n*xn + b1,1*u1 + b1,p*up 
 .
 .
 .
 ẋn = an,1*x1 + ... + an,n*xn + bn,1*u1 + ... + bn,p*up
 
-2)
 y1 = c1,1*x1 + ... + c1,n*xn + d1,1*u1 + d1,p*up 
 .
 .
