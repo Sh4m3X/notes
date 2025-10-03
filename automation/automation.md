@@ -19,4 +19,4 @@ Why this distintion is important? because it determines the type of  mathematica
 
 - [Differential Equation](lectures/diff/differential.md)
 - [Cauchy](lectures/cauchy/cauchy.md)
-- [Matrix representation of differential equation](lectures/matrix/mtrix.md)
+- [Modal transformation of differential equation](lectures/matrix/matrix.md)
