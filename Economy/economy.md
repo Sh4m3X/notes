@@ -5,4 +5,4 @@ THIS IS NOT A FINANCIAL ADVISE OF ANY SORT.
 
 ## APPLIED ECONOMY LESSONS
 
-- [INVESTMENTS]()
+- [INVESTMENTS](lectures/investmets/investments.md)

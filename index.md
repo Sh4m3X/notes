@@ -5,6 +5,9 @@ With that said, below you’ll find the different subjects I’m focusing on, al
 
 ## Subjects
 - [Automatic Notes](automation/automation.md);
+- [Applied Economy](Economy/economy.md)
+
+
 
 
 
