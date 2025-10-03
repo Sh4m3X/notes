@@ -3,17 +3,17 @@
 ## General Matrix Representation
 Let's assume we have two system of equation:
 
-ẋ1 = a1,1*x1 + ... + a1,n*xn + b1,1*u1 + b1,p*up 
+ẋ1 = a1,1* x1 + ... + a1,n * xn + b1,1*u1 + b1,p * up 
 .
 .
 .
-ẋn = an,1*x1 + ... + an,n*xn + bn,1*u1 + ... + bn,p*up
+ẋn = an,1 * x1 + ... + an,n * xn + bn,1 * u1 + ... + bn,p*up
 
-y1 = c1,1*x1 + ... + c1,n*xn + d1,1*u1 + d1,p*up 
+y1 = c1,1 * x1 + ... + c1,n * xn + d1,1 * u1 + d1,p*up 
 .
 .
 .
-yn = cn,1*x1 + ... + cn,n*xn + dn,1*u1 + ... + dn,p*up
+yn = cn,1 * x1 + ... + cn,n * xn + dn,1 * u1 + ... + dn,p*up
 
 this two system can be written like this:
 
@@ -90,7 +90,7 @@ so substituting A we obtain: e^At = sum((At)^i/i!).
 
 the derivate of e^At can be obtain by deriving each argument of the series before described and summing them up, the result will be: (e^At)' = A*e^At.
 
-and the inverse of e^At will be e^-At if and oly if A2*A1 = A1*A2 that allows us to use the property e^A1*e^A2 = e^(A1 + A2).
+and the inverse of e^At will be e^-At if and oly if A2 * A1 = A1 * A2 that allows us to use the property e^A1*e^A2 = e^(A1 + A2).
 
 
 
@@ -102,16 +102,16 @@ x = Tz
 
 now we can substitute the x in the system resulting in:
 
-Tż = ATz + Bu --> (T^-1*T)ż = T^-1*ATz + T^-1*Bu --> ż = T^-1*ATz + T^-1*Bu
-y = CTz --------> \\\ -----------------------------> \\
+Tż = ATz + Bu --> (T^-1 * T)ż = T^-1 * A * Tz + T^-1 * Bu --> ż = T^-1 * A * T * z + T^-1*B * u
+y = CTz --------> \\\ -----> y = CTz
 
-now we can call T^-1*AT = Ã, T^-1*B = B̃ and CT = C̃
+now we can call T^-1 * AT = Ã, T^-1*B = B̃ and CT = C̃
 
 ż = Ãz + B̃u
 y = C̃z
 
 Notice also how the change, if made properly doesn't change the nature of the system, infact we can calculate the det(Ã - λI) = 0:
-det(T^-1*AT - λT^-1*I*T ) = det(t^-1*(A-λI)*T) = det(t^-1) * det(A-λI) * det(T) = det(A-λI) 
+det(T^-1 * AT - λT^-1* I* T ) = det(t^-1*(A-λI)*T) = det(t^-1) * det(A-λI) * det(T) = det(A-λI) 
 that will guarantee that the characteristic polynomial will be the same.
 
 This change can help us to see the problem in a different way for a better comprehension of it.
@@ -149,7 +149,7 @@ let's say that λ and λ* are the eigenvalue and v v* are the eigenvectors we wi
 x = (v+v*)/2  ,  y = (v-v*)/2j 
 now we construct T = [re[v] im[v]] = [x y]
 
-T^-1*AT = Ã so we ca also write TÃ = AT = A[re[v] im[v]] = [ (Av + Av*)/2  (Av - Av*)/2 ] =  [(λ*v + λ*v*)/2  (λ*v - λ*v*)/2] = [re(λv)  im(λv)]
+T^-1* AT = Ã so we ca also write TÃ = AT = A[re[v] im[v]] = [ (Av + Av*)/2  (Av - Av*)/2 ] =  [(λ* v + λ* v*)/2  (λ* v - λ* v*)/2] = [re(λv)  im(λv)]
 
 now if λ = σ + jw we can see that re[λ*v] = re[σv + jwv] = σre[v] - w*im[v]
 analogus for im that will give im[λ*v] = σim[v] + w*re[v]
@@ -167,10 +167,10 @@ cos(wt)   sin(wt)
 
 the final result will be that e^Ãt is also equal to:
 
-e^σt*cos(wt)   e^σt*sin(wt)
--e^σt*sin(wt)  e^σt*cos(wt)
+e^σt* cos(wt)   e^σt*sin(wt)
+-e^σt* sin(wt)  e^σt*cos(wt)
 
-once we now that e^At is T*e^Ãt*T^-1 :
+once we now that e^At is T* e^Ãt *T^-1 :
 
 e^σt * T * e^A2 * t^-1
 
