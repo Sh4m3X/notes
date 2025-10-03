@@ -3,7 +3,6 @@
 ## General Matrix Representation
 Let's assume we have two system of equation:
 
-1
 ẋ1 = a1,1*x1 + ... + a1,n*xn + b1,1*u1 + b1,p*up 
 .
 .
