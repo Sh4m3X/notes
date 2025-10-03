@@ -1,7 +1,10 @@
 # MODAL TRANSFORMATION OF DIFFERENTIAL EQUATION
 
+(THERE IS PROBLEM WITH FORMULAS RAPRESENTATION I WILL FIX AS SOON AS I CAN)
+
 ## General Matrix Representation
 Let's assume we have two system of equation:
+
 
 ẋ1 = a1,1* x1 + ... + a1,n * xn + b1,1*u1 + b1,p * up 
 ...
@@ -10,6 +13,7 @@ Let's assume we have two system of equation:
 y1 = c1,1 * x1 + ... + c1,n * xn + d1,1 * u1 + d1,p*up 
 ...
 yn = cn,1 * x1 + ... + cn,n * xn + dn,1 * u1 + ... + dn,p*up
+
 
 this two system can be written like this:
 
