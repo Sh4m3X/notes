@@ -20,3 +20,7 @@ Why this distintion is important? because it determines the type of  mathematica
 - [Differential Equation](lectures/diff/differential.md)
 - [Cauchy](lectures/cauchy/cauchy.md)
 - [Modal transformation of differential equation](lectures/matrix/matrix.md)
+- [Laplace transformation](lectures/laplace/laplace.md)
+- [Antilaplace and Transfer Function](lectures/antilaplace/antilaplace.md)
+- [Responses](lectures/responses/responses.md)
+- [Block Rapresentation](lectures/block/block.md)

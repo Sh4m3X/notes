@@ -174,6 +174,31 @@ once we now that e^At is T* e^Ãt *T^-1 :
 
 e^σt * T * e^A2 * t^-1
 
-
 THIS IS A LOT OF STUFF AND PROBABLY NOT EXPLAINED VERY WELL, but it gives you an idea of what's going on.
 maybe later i will introduce some exemple.
+
+## Laplace applied to matrix
+Before reading this i advice the reader to visit the following section: 
+- [Laplace](/automation/lectures/laplace/laplace.md);
+- [Laplace](/automation/lectures/antilaplace/antilaplace.md);
+
+if we have the previous system: 
+
+ẋ = Ax + Bu
+y = Cx 
+
+the general solution is y(t) = Ce^Atx0 + Ce^Atbu(t).
+if we now change to laplace rapresentation we will get eventually to the following form:
+
+sX(s) - x(o) = AX(s) + bU(s)--> (sI-A)X(s) = x(0) + bU(s) --> X(s) = (sI-A)^-1x(0) + (sI-A)^-1bU(s)
+
+now the first term will be the transform of the free evolution, and the second term will be the transform of the forcing response.
+
+now Y(s) = CX(S) --> Y(s) = C(sI-A)^-1x(0) + C(sI-A)^-1bU(s)
+
+so F(s) = C(sI-A)^-1b = Y(s)/U(s)
+
+in general H^-1 = adj(H)^T/det(H), so F(s) = s/(det(sI-A)). so if no eigenvalues are removed, them coincede with the poles of the transfer function. So the initial system is stable if and only if all the eigenvalues of A are negative. The impulsive response will be h(h) = antilaplace(C(sI-A)^-1b).
+
+
+
